@@ -35,5 +35,3 @@
 // Stack və Heap (Ram)
 // Stack - primitivlerde referanslar ve deyerler steackda saxlanır (avtomotik təmizlənir)
 // Heap - non-primitivde referanslar heapda deyerler steackda saxlanır (manuel təmizlənir)
-
-let text = "Lorem hello lorem"
