@@ -123,10 +123,44 @@
 // let percentage = parseInt(salarymoney.slice(dot+1));
 // console.log(amount+(amount*(period*percentage)/100))
 // // Task-23
-let thenumber = 10;
-console.log(thenumber >= 10);
-console.log(thenumber != 12)
-console.log(thenumber > 9);
-console.log(thenumber <= 20);
-console.log(thenumber < 21);
-
+// let thenumber = 10;
+// console.log(thenumber >= 10);
+// console.log(thenumber != 12);
+// console.log(thenumber > 9);
+// console.log(thenumber <= 20);
+// console.log(thenumber < 21);  
+// Task-24
+// let agename = prompt("Zəhmət olmasa yaşınızı qeyd edin:");
+// if(agename <= 18){
+//     alert("Access denied");
+// }else{
+//     alert("Access granted")
+// }
+// // Task-25
+// let threenumbers = prompt("Zəhmət olmasa üç ikirəqəmli ədəd daxil edin:")
+// let pointed = threenumbers.split(" ");
+// let first = pointed[0];
+// let second = pointed[1];
+// let third = pointed[2];
+// if(second>first&&second<third){
+//     console.log(second)
+// }else if(second>third&&second<first){
+//     console.log(second)
+// }else if(first>third&&first<second){
+//     console.log(first)
+// }else if(first>second&&first<third){
+//     console.log(first)
+// }else if(third>first&&third<second){
+//     console.log(third)
+// }else if(third>first&&third<second){
+//     console.log(third)
+// }else{
+//     console.log("Xəta")
+// }
+// Task-26
+let il = +prompt("Bir il geyd edin:")
+if(il%4){
+    console.log("İl uzun il deyil")
+}else{
+    console.log("İl uzun ildir")
+}
