@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(160, 99, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.todo-app{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 700px;
+    padding: 30px 80px;
+    margin-top: 50px;
+}
+
+#todo-input{
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    outline: none;
+    border: 1px solid;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    &::placeholder{
+        color: #fff;
+    }
+}
+.todos{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 7px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+    .continue-todo{
+        background-color: #fff;
+        color: #000;
+        padding: 15px 20px;
+        margin-block: 10px;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+
+        p{
+            cursor: pointer;
+        }
+    }
+}
+
+#edit,
+#delete,
+#recovery{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#completed-area{
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+
+    #show-completed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .completed-todos{
+        border: 1px solid #fff;
+        padding: 30px;
+        border-radius: 7px;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        display: none;
+
+        .completed-todo{
+            background-color: rgb(160, 99, 218);
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
